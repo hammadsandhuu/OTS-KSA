@@ -1,0 +1,13 @@
+node_modules
+dist
+build
+out
+coverage
+.git
+.next
+.cache
+*.lock
+*.min.js
+*.map
+*.log
+.env
