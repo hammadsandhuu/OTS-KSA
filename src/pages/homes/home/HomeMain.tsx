@@ -7,7 +7,6 @@ import BackToTop from '@/components/shared/BackToTop/BackToTop';
 import HomeMainAbout from '@/components/about/HomeMainAbout';
 import HomeMainHeader from '@/layouts/headers/HomeMainHeader';
 import HomeMainWork from '@/components/work/HomeMainWork';
-import CreativeStudioAbout from '@/components/about/CreativeStudioAbout';
 import CreativeStudioChoose from '@/components/choose-area/CreativeStudioChoose';
 import CreativeStudioTestimonial from '@/components/testimonial/CreativeStudioTestimonial';
 import CreativeStudioFooter from '@/layouts/footers/CreativeStudioFooter';
@@ -30,8 +29,7 @@ const HomeMain = () => {
                             {/* Main Content Sections */}
                             <main>
                                 <HomeMainHero />
-                                <HomeMainAbout />
-                                <CreativeStudioAbout />    
+                                <HomeMainAbout />    
                                 <HomeMainService />
                                 <HomeMainWork />
                                 <CreativeStudioChoose />

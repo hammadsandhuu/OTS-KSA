@@ -1,5 +1,5 @@
 import aboutShape from "../../../public/assets/img/home-01/about/about-shape-1.png"
-import aboutImgOne from "../../../public/assets/img/home-01/about/about-1.jpg"
+import aboutImgOne from "../../../public/assets/img/home-01/about/about.png"
 import aboutAvater from "../../../public/assets/img/home-01/about/about-avater.png"
 import HomeMainCounter from "../counter/HomeMainCounter";
 import Image from "next/image";
@@ -28,8 +28,7 @@ const HomeMainAbout = ({ bgColur, spacingCls = "pb-120" }: aboutPropsDT) => {
                             <div className="tp-about-wrap">
                                 <div className="tp-about-text tp_fade_anim">
                                     <p>
-                                        An independent web design and branding agency in Manchester set up in 2010 who care,
-                                        build relationships, have industry experience, and win awards.
+                                    An independent ocean trading services company who care, build long-term relationships, have deep industry experience, and deliver trusted results.
                                     </p>
                                 </div>
                                 <div className="row">
@@ -42,7 +41,7 @@ const HomeMainAbout = ({ bgColur, spacingCls = "pb-120" }: aboutPropsDT) => {
                                         <div className="tp-about-funcact-wrap">
                                             <div className="tp-about-avater-info">
                                                 <div className="tp_text_anim">
-                                                    <p>Driven by a passion for innovation, we specialize in <br /> delivering top-quality design solutions</p>
+                                                    <p>Driven by a passion for innovation, we specialize in <br /> delivering top-quality ocean trading services</p>
                                                 </div>
                                             </div>
                                             {/* counter area */}

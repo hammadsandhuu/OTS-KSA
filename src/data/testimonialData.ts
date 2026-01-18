@@ -32,464 +32,168 @@ import userImg7 from "../../public/assets/img/product/product-details-main/desc/
 const testimonialsData: TestimonialDT[] = [
     {
         id: 1,
-        quote: "“Agntix studio ability to create a high quality UI is stands out. It’s something we placed a premium on. A studio with passionate, professional, fun and full creativity.”",
+        quote: "Ocean Trading Services consistently delivers reliable shipping solutions. Their industry knowledge and attention to detail set them apart.",
         name: "Albert Juan",
-        position: "CEO & Founder, Archin Studio",
+        position: "Managing Director, Archin Group",
         avatar: avaterOne,
         style: "white-style"
     },
     {
         id: 2,
-        quote: "“Agntix studio ability to create a high quality UI is stands out. It’s something we placed a premium on. A studio with passionate, professional, fun and full creativity.”",
+        quote: "Their team handled our international shipments with precision and professionalism. Communication was clear from start to finish.",
         name: "Koen Chegg",
-        position: "CEO & Founder, Archin Studio",
+        position: "Operations Head, Global Exports",
         avatar: avaterTwo,
         style: "green-style"
     },
     {
         id: 3,
-        quote: "“Agntix studio ability to create a high quality UI is stands out. It’s something we placed a premium on. A studio with passionate, professional, fun and full creativity.”",
+        quote: "We value Ocean Trading Services as a long-term logistics partner. They understand our business and always deliver on time.",
         name: "Warren Daniel",
-        position: "CEO & Founder, Archin Studio",
+        position: "Supply Chain Director",
         avatar: avaterThree,
         style: "black-style"
     },
     {
         id: 4,
-        quote: "“Agntix studio ability to create a high quality UI is stands out. It’s something we placed a premium on. A studio with passionate, professional, fun and full creativity.”",
+        quote: "From documentation to delivery, everything was handled seamlessly. A dependable trading and logistics partner.",
         name: "Elvin Bond",
-        position: "CEO & Founder, Archin Studio",
+        position: "CEO, Maritime Solutions",
         avatar: avaterFour,
         style: "white-style"
     },
     {
         id: 5,
-        quote: "“Agntix studio ability to create a high quality UI is stands out. It’s something we placed a premium on. A studio with passionate, professional, fun and full creativity.”",
+        quote: "Their expertise in ocean freight and compliance gave us complete confidence throughout the shipment process.",
         name: "Abbas",
-        position: "CEO & Founder, Archin Studio",
+        position: "Import Manager",
         avatar: avaterFive,
         style: "grey-style"
     },
     {
         id: 6,
-        quote: "“Agntix studio ability to create a high quality UI is stands out. It’s something we placed a premium on. A studio with passionate, professional, fun and full creativity.”",
+        quote: "Professional, responsive, and highly experienced. Ocean Trading Services made international shipping effortless.",
         name: "Jessamine Mumtaz",
-        position: "CEO & Founder, Archin Studio",
+        position: "Procurement Lead",
         avatar: avaterSix,
         style: "green-style"
     },
-    {
-        id: 7,
-        quote: "“Agntix studio ability to create a high quality UI is stands out. It’s something we placed a premium on. A studio with passionate, professional, fun and full creativity.”",
-        name: "Koen Chegg",
-        position: "CEO & Founder, Archin Studio",
-        avatar: avaterTwo,
-        style: "black-style"
-    },
-    //home four testimonial data start
+
+    // home four testimonials
     {
         id: 8,
         avatar: avater7,
         name: "Bradley Gordon",
-        position: "Co-Founder of Agntix",
+        position: "Logistics Manager",
         rating: 5,
-        quote: "Agntix went above and beyond to make sure we got something we were happy with."
+        quote: "Ocean Trading Services went above and beyond to ensure our cargo arrived safely and on schedule."
     },
     {
         id: 9,
         avatar: avater8,
         name: "Tisha Norton",
-        position: "Co-Founder of Agntix",
+        position: "Operations Director",
         rating: 5,
-        quote: "The team at Agntix was incredibly attentive and made sure every detail was perfect."
+        quote: "Their attention to detail and proactive communication made a real difference."
     },
     {
         id: 10,
         avatar: avater9,
         name: "Emma Berger",
-        position: "Co-Founder of Agntix",
+        position: "International Trade Manager",
         rating: 5,
-        quote: "We're beyond satisfied — Agntix made the entire process seamless and rewarding."
+        quote: "A smooth, transparent process from booking to final delivery."
     },
     {
         id: 11,
         avatar: avater10,
         name: "Mary Cruz",
-        position: "Co-Founder of Agntix",
+        position: "Supply Chain Consultant",
         rating: 5,
-        quote: "From start to finish, Agntix went the extra mile to ensure we were thrilled with the result."
+        quote: "Reliable service backed by real industry expertise."
     },
-    //home four testimonial data end
 
-    // home five design-agency-light start
+    // corporate-style testimonials
     {
         id: 12,
         name: "Andrew Gross",
         position: "CEO & Co-Founder",
         rating: 5.0,
-        quote: `"I was really impressed with their speed and how quickly things moved."`
+        quote: "Their efficiency and fast turnaround helped us meet critical shipping deadlines."
     },
     {
         id: 13,
         name: "Matthew Blake",
         position: "Chief Executive Officer",
         rating: 5.0,
-        quote: "Their speed and swift them execution truly is impressed me this project."
+        quote: "A highly professional team with excellent global trade knowledge."
     },
     {
         id: 14,
         name: "Jonathan Cross",
         position: "Founder & Chief Executive",
         rating: 5.0,
-        quote: "I couldn't believe how i quickly fix everything came in together."
+        quote: "Everything was handled smoothly, even under tight timelines."
     },
     {
         id: 15,
         name: "Benjamin Hayes",
         position: "CEO & Head of Innovation",
         rating: 5.0,
-        quote: `"I was blown away by how fast and smoothly things moved the item."`
+        quote: "Exceptional coordination across ports and partners."
     },
-    {
-        id: 16,
-        name: "William Tate",
-        position: "Managing Partner & CEO",
-        rating: 5.0,
-        quote: `"I was amazed by their efficiency and how fast everything progressed."`
-    },
-    // home five design-agency-light end
 
-    // home Six creative-agency-light data start
-    {
-        id: 17,
-        name: "Andrew Gross",
-        position: "CEO & Co-Founder",
-        rating: 5.0,
-        quote: "I was really impressed with their speed and how quickly things moved."
-    },
-    {
-        id: 18,
-        name: "Matthew Blake",
-        position: "Chief Executive Officer",
-        rating: 5.0,
-        quote: "Their speed and swift execution truly impressed me on this project."
-    },
-    {
-        id: 19,
-        name: "Jonathan Cross",
-        position: "Founder & Chief Executive",
-        rating: 5.0,
-        quote: "I couldn't believe how quickly everything came together."
-    },
-    {
-        id: 20,
-        name: "Benjamin Hayes",
-        position: "CEO & Head of Innovation",
-        rating: 5.0,
-        quote: "I was blown away by how fast and smoothly things moved."
-    },
-    {
-        id: 21,
-        name: "William Tate",
-        position: "Managing Partner & CEO",
-        rating: 5.0,
-        quote: "I was amazed by their efficiency and how fast everything progressed."
-    },
-    // home Six creative-agency-light data end
-
-    // home nine corporate-agency-light data start
+    // corporate-agency-light
     {
         id: 22,
-        quote: "When we talk about Alts, we do not mean a typical business partner, but rather a team that collaborates with us daily, always there for us when we encounter difficulties and celebrate achievements.",
+        quote: "Ocean Trading Services is more than a supplier — they are a trusted logistics partner who supports us at every stage.",
         name: "Mike David",
-        role: "Developer"
+        role: "Trade Operations Manager"
     },
     {
         id: 23,
-        quote: "The service and support was exceptional. They went above and beyond to ensure our project was successful and delivered on time.",
+        quote: "Outstanding service and consistent reliability across all our shipments.",
         name: "Sarah Johnson",
-        role: "Product Manager"
+        role: "Procurement Manager"
     },
     {
         id: 24,
-        quote: "Working with this team has been a game-changer for our business. Their expertise and dedication are unmatched in the industry.",
+        quote: "Their expertise in international shipping has significantly improved our supply chain efficiency.",
         name: "James Wilson",
-        role: "CEO"
+        role: "Chief Executive Officer"
     },
-    // home nine corporate-agency-light data end
-    {
-        id: 25,
-        avatar: testimonial1,
-        name: "Kate Leeman",
-        position: "Head of Product, Designer",
-        quote: "I love how agntix helps me track my expenses and alerts me about upcoming bills. It's a must have app!",
-        rating: 5
-    },
-    {
-        id: 26,
-        avatar: testimonial2,
-        name: "Kate Leeman",
-        position: "Head of Product, Designer",
-        quote: "I love how agntix helps me track my expenses and alerts me about upcoming bills. It's a must have app!",
-        rating: 5
-    },
-    {
-        id: 27,
-        avatar: testimonial3,
-        name: "Kate Leeman",
-        position: "Head of Product, Designer",
-        quote: "I love how agntix helps me track my expenses and alerts me about upcoming bills. It's a must have app!",
-        rating: 5
-    },
-    {
-        id: 28,
-        avatar: testimonial4,
-        name: "Kate Leeman",
-        position: "Head of Product, Designer",
-        quote: "I love how agntix helps me track my expenses and alerts me about upcoming bills. It's a must have app!",
-        rating: 5
-    },
-    {
-        id: 29,
-        avatar: testimonial1,
-        name: "Kate Leeman",
-        position: "Head of Product, Designer",
-        quote: "I love how agntix helps me track my expenses and alerts me about upcoming bills. It's a must have app!",
-        rating: 5
-    },
-    {
-        id: 30,
-        avatar: testimonial2,
-        name: "Kate Leeman",
-        position: "Head of Product, Designer",
-        quote: "I love how agntix helps me track my expenses and alerts me about upcoming bills. It's a must have app!",
-        rating: 5
-    },
-    {
-        id: 31,
-        avatar: testimonial3,
-        name: "Kate Leeman",
-        position: "Head of Product, Designer",
-        quote: "I love how agntix helps me track my expenses and alerts me about upcoming bills. It's a must have app!",
-        rating: 5
-    },
-    {
-        id: 32,
-        avatar: testimonial4,
-        name: "Kate Leeman",
-        position: "Head of Product, Designer",
-        quote: "I love how agntix helps me track my expenses and alerts me about upcoming bills. It's a must have app!",
-        rating: 5
-    },
-    //Home IT Solution testimonial data start
-    {
-        id: 33,
-        avatar: testiImg,
-        brandLogo: testiBrand,
-        quote: "It uses a directory of over 200 latin words combine a half of model sentence structures. Allgenerations on the internet trends to repeat predefined chunks as nessessary to make this file.",
-        name: "Christian B."
-    },
-    {
-        id: 34,
-        avatar: testiImg,
-        brandLogo: testiBrand,
-        quote: "Another great testimonial about how amazing your service is and how it helped our business grow exponentially.",
-        name: "Sarah K."
-    },
-    {
-        id: 35,
-        avatar: testiImg,
-        brandLogo: testiBrand,
-        quote: "The best decision we made was choosing this platform. The results have been outstanding and the support is exceptional.",
-        name: "Michael T."
-    },
-    {
-        id: 36,
-        avatar: testiImg,
-        brandLogo: testiBrand,
-        quote: "It uses a directory of over 200 latin words combine a half of model sentence structures. Allgenerations on the internet trends to repeat predefined chunks as nessessary to make this file.",
-        name: "Christian B."
-    },
-    {
-        id: 37,
-        avatar: testiImg,
-        brandLogo: testiBrand,
-        quote: "Another great testimonial about how amazing your service is and how it helped our business grow exponentially.",
-        name: "Sarah K."
-    },
-    //cripto currency testimonial data start
-    {
-        id: 38,
-        reviewedOn: "reviewed On",
-        logo: envatoLogo,
-        quote: "“ It uses a directory of over 200 latin words combine a half of model sentence structures. All generations on the internet trends to repeat predefined chunks as nessessary to make this file. ”",
-        name: "Christian B.",
-        position: "Mid-Level Developer"
-    },
-    {
-        id: 39,
-        reviewedOn: "reviewed On",
-        logo: envatoLogo,
-        quote: "“ It uses a directory of over 200 latin words combine a half of model sentence structures. All generations on the internet trends to repeat predefined chunks as nessessary to make this file. ”",
-        name: "Christian B.",
-        position: "Mid-Level Developer"
-    },
-    {
-        id: 40,
-        reviewedOn: "reviewed On",
-        logo: envatoLogo,
-        quote: "“ It uses a directory of over 200 latin words combine a half of model sentence structures. All generations on the internet trends to repeat predefined chunks as nessessary to make this file. ”",
-        name: "Christian B.",
-        position: "Mid-Level Developer"
-    },
-    //cripto currency testimonial data end
 
-    //startup agency testimonial data start
-    {
-        id: 41,
-        name: 'David Hussey',
-        position: 'Co-Founder',
-        quote: 'We’ve had good experiences with calling centres through agntix. We hired my own remote team that I have <i>complete control over the remote</i> team that means work from home',
-        rating: 5
-    },
-    {
-        id: 42,
-        name: 'Kim Armstrong',
-        position: 'Co-Founder',
-        quote: 'We’ve had good experiences with calling centres through agntix. We hired my own remote team that I have <i>complete control over the remote</i> team that means work from home',
-        rating: 5
-    },
-    {
-        id: 43,
-        name: 'David Hussey',
-        position: 'Co-Founder',
-        quote: 'We’ve had good experiences with calling centres through agntix. We hired my own remote team that I have <i>complete control over the remote</i> team that means work from home',
-        rating: 5
-    },
-    {
-        id: 44,
-        name: 'Kim Armstrong',
-        position: 'Co-Founder',
-        quote: 'We’ve had good experiences with calling centres through agntix. We hired my own remote team that I have <i>complete control over the remote</i> team that means work from home',
-        rating: 5
-    },
-    //startup agency testimonial data end
-
-    //personal portfolio testimonial data start
-    {
-        id: 45,
-        name: 'Andrew Gross',
-        position: 'CEO & Co-Founder',
-        rating: 5,
-        quote: '"I was really impressed with their speed and how quickly things moved."'
-    },
-    {
-        id: 46,
-        name: 'Matthew Blake',
-        position: 'Chief Executive Officer',
-        rating: 5,
-        quote: '"Their speed and swift execution truly impressed me on this project."'
-    },
-    {
-        id: 47,
-        name: 'Jonathan Cross',
-        position: 'Founder & Chief Executive',
-        rating: 5,
-        quote: '"I couldn\'t believe how quickly everything came together."'
-    },
-    {
-        id: 48,
-        name: 'Benjamin Hayes',
-        position: 'CEO & Head of Innovation',
-        rating: 5,
-        quote: '"I was blown away by how fast and smoothly things moved."'
-    },
-    {
-        id: 49,
-        name: 'William Tate',
-        position: 'Managing Partner & CEO',
-        rating: 5,
-        quote: '"I was amazed by their efficiency and how fast everything progressed."'
-    },
-    {
-        id: 50,
-        name: 'Jonathan Cross',
-        position: 'Founder & Chief Executive',
-        rating: 5,
-        quote: '"I couldn\'t believe how quickly everything came together."'
-    },
-    //personal portfolio testimonial data end
+    // modern testimonials
     {
         id: 51,
-        quote: "“I love working with Samuel – he’s always professional and goes the extra mile to ensure I’m happy.",
+        quote: "Clear communication, reliable timelines, and professional handling throughout.",
         name: "John Deo",
         avatar: userImg1
     },
     {
         id: 52,
-        quote: "Working with Amanda has been a joy – she's attentive, talented, and truly cares about delivering great results.",
+        quote: "Their team kept everything on track and ensured full compliance at every step.",
         name: "James Fox",
         avatar: userImg2
     },
     {
         id: 53,
-        quote: "I'm always impressed by Jordan's commitment – he listens, understands, and consistently exceeds expectations.",
+        quote: "We felt supported throughout the entire shipping process.",
         name: "Mark Lee",
         avatar: userImg3
     },
     {
         id: 54,
-        quote: "David brings a level of professionalism and passion that's rare – I couldn't be more pleased with the outcome.",
+        quote: "A dependable partner with strong global reach.",
         name: "Paul Ray",
         avatar: userImg4
     },
     {
         id: 55,
-        quote: "Noah made everything easy – his calm attitude and expertise kept the project on track and stress-free.",
+        quote: "Professional, efficient, and easy to work with.",
         name: "Farhan Firoz",
         avatar: userImg5
-    },
-    {
-        id: 56,
-        quote: "Olivia's communication and follow-through made a huge difference – I felt supported from start to finish.",
-        name: "Jack Day",
-        avatar: userImg6
-    },
-    {
-        id: 57,
-        quote: "Liam showed true professionalism throughout – always one step ahead and genuinely invested in our success.",
-        name: "Ryan Cole",
-        avatar: userImg7
-    },
-    {
-        id: 58,
-        quote: "Melissa's attention to detail and creative input made the entire process smooth and enjoyable.",
-        name: "Brain Lara",
-        avatar: userImg3
-    },
-    {
-        id: 59,
-        quote: "Emma was patient, responsive, and went out of her way to make sure every detail was perfect.",
-        name: "Sam Grey",
-        avatar: userImg3
-    },
-    {
-        id: 60,
-        quote: "Chris has a great eye for design and was incredibly easy to work with – highly recommended!",
-        name: "Alex Stone",
-        avatar: userImg3
-    },
-    {
-        id: 61,
-        quote: "Working with Amanda has been a joy – she's attentive, talented, and truly cares about delivering great results.",
-        name: "Ben Kyle",
-        avatar: userImg3
-    },
-    {
-        id: 62,
-        quote: "Olivia's communication and follow-through made a huge difference – I felt supported from start to finish.",
-        name: "Adam Shaw",
-        avatar: userImg3
     }
 ];
+
 export default testimonialsData;

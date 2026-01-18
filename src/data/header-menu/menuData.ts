@@ -23,26 +23,26 @@ const headerMenuData: MenuItem[] = [
         children: false, 
         title: "Services",
         pluseIncon: false, 
-        link: "/services",
+        link: "/our-services",
         submenus: [
             {
                 title: "Door to Door Shipping",
-                link: "/services/door-to-door-shipping",
+                link: "/our-services/door-to-door-shipping",
                 pluseIncon: false
             },
             {
                 title: "ExWorks Shipping (With Origin Support)",
-                link: "/services/exworks-shipping",
+                link: "/our-services/exworks-shipping",
                 pluseIncon: false
             },
             {
                 title: "Flexible FOB Solutions",
-                link: "/services/flexible-fob-solutions",
+                link: "/our-services/flexible-fob-solutions",
                 pluseIncon: false
             },
             {
                 title: "Custom & Transportation Solutions",
-                link: "/services/custom-and-transportation-solutions",
+                link: "/our-services/custom-and-transportation-solutions",
                 pluseIncon: false
             }
         ]

@@ -42,36 +42,37 @@ const servicesData: servicesDT[] = [
     //Home main services data start
     {
         id: 1,
-        title: "Web Design",
+        title: "Door to Door",
         image: service1,
-        description: "Whether you need stunning visuals for your website, captivating graphics for your marketing materials, or innovative UI/UX designs for your app, our team of experts is here to turn your vision into reality.",
-        categories: ["UX Design", "User Testing", "Motion Design", "Product Prototype"],
+        description: "A complete end-to-end logistics solution handling your cargo from origin to final destination, ensuring seamless coordination, reliability, and peace of mind throughout the journey.",
+        categories: ["Pickup", "Customs Clearance", "Freight Handling", "Final Delivery"],
         link: "/service-details-light",
     },
     {
         id: 2,
-        title: "Product Design",
+        title: "EX World Wide",
         image: service2,
-        description: "Our product design services focus on creating intuitive and aesthetically pleasing products that resonate with your audience and stand out in the market.",
-        categories: ["UX Design", "User Testing", "Product Prototype", "Mobile UI", "Software UI design", "Web app design"],
+        description: "Global trading and shipping solutions designed to move goods efficiently across international markets, supported by strong partnerships and worldwide operational coverage.",
+        categories: ["Global Trade", "International Shipping", "Export Handling", "Import Coordination"],
         link: "/service-details-light",
     },
     {
         id: 3,
-        title: "Web Development",
+        title: "Flexible FOB",
         image: service3,
-        description: "From website development and e-commerce platforms to custom software and mobile apps, our development team has the expertise to bring your ideas to life.",
-        categories: ["UX Design", "Frontend", "Backend", "E-commerce", "No Code / Low Code"],
+        description: "Flexible Free On Board services that give you control over your shipment while we manage port operations, documentation, and compliance with precision and efficiency.",
+        categories: ["FOB Shipping", "Port Operations", "Documentation", "Compliance"],
         link: "/service-details-light",
     },
     {
         id: 4,
-        title: "Branding",
+        title: "Transportation",
         image: service4,
-        description: "It's the core of your company's identity. It guides all business decisions, ensuring a consistent and impactful presence in the market.",
-        categories: ["Research & Insights", "Unique Ways", "Value Proposition", "Naming", "Verbal Identity"],
+        description: "Reliable transportation solutions tailored to your cargo requirements, ensuring safe, timely, and cost-effective movement across land and sea.",
+        categories: ["Road Transport", "Sea Freight", "Cargo Handling", "Supply Chain Support"],
         link: "/service-details-light",
     },
+    
     //Home main services data end
     //Home two services data start
     {
